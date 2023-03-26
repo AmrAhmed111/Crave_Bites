@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Crave Bites</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Render All Elemnet Normally -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- Font Awesome Library -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- Main Template CSS File -->
+        <link rel="stylesheet" href="css/crave.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:wght@300;400;500;600;800&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start Header -->
+        <div class="header" id="header">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="image/logo.png" alt="">
+                </a>
+                <ul class="main-nav">
+                    <li><a href="#book-a-table">Book A Table</a></li>
+                    <li><a href="#restaurant-menu">Restaurant Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Header -->
+        <!-- Start Landing -->
+        <div class="landing">
+            <div class="container">
+                <div class="text">
+                    <h1>Eat Good, Feel Good</h1>
+                    <p>Wonderful Food With Wonderful People</p>
+                </div>
+            </div>
+            <!-- Icon => fa-angle-left and fa-angle-right -->
+            <i class="fas fa-angle-left change-background fa-2x"></i>
+            <i class="fas fa-angle-right change-background fa-2x"></i>
+            <ul class="bullets">
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+            </ul>
+        </div>
+        <!-- End Landing -->
+        <!-- Start Book A Table -->
+        <div class="book-table" id="book-a-table">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Book A Table</h2>
+                </div>
+            </div>
+            <div class="book-container">
+                <div class="box">
+                    <h3>Opening Hours:</h3>
+                    <p>Monday - Friday</p>
+                    <p class="space">11:00 AM - 09:00 PM</p>
+                    <div class="box-down">
+                        <h3>Additional Info:</h3>
+                        <p>
+                            <span>phone:</span>
+                            985-245-1730
+                        </p>
+                        <p>
+                            <span>Address:</span>
+                            Mansoura, Al-Bahr Street
+                        </p>
+                        <p class="inform">
+                            Here you can add details that will be displayed for visitor on the reservation page, such as an explanation about
+                            the restaurant, restaurant location, and other important information that you want to inform your visitor about.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <p class="marg">Chooce Table Size</p>
+                    <input type="number" name="number" id="number" min="2" max="10" value="2">
+                    <p>Choose a Date and Time</p>
+                    <input type="datetime-local" name="time" id="time">
+                    <input type="submit" value="MAKE ORDER" class="hover-center"></input>   
+                </div>
+            </div>
+        </div>
+        <!-- End Book A Table -->
+        <!-- Start Restaurant Menu -->
+        <div class="rest-menu" id="restaurant-menu">
+            <div class="main-heading">
+                <h2>Restaurant Menu</h2>
+            </div>
+            <div class="main-menu">
+                <h3 class="head">Main Menu</h3>
+                <div class="main-container">
+                    <div class="box">
+                        <img src="image/pasta.jpg" alt="">
+                        <div class="text">
+                            <h3>Pasta</h3>
+                            <p>Pasta with sheep's Spaghetti pasta, tomato sauce and vegetables.</p>
+                            <span>35 EGP</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="image/chicken-wings.jpeg" alt="">
+                        <div class="text">
+                            <h3>Chicken Wings</h3>
+                            <p>
+                                Delicious fried chicken wings and your choice of Sweet Spicy BBQ,
+                                Molotov, BBQ or Sweet Sriracha sauce. While Chili Buzz may be their main specialty is the burger,
+                                but their wings can outshine the burger.
+                            </p>
+                            <span>75.5 EGP</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="image/flash-steak.jpg" alt="">
+                        <div class="text">
+                            <h3>Flash Steak</h3>
+                            <p>Pounded with prosciuto & sage.</p>
+                            <span>65.5 EGP</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="image/mushroom-burger.jpg" alt="">
+                        <div class="text">
+                            <h3>Mushroom Burger</h3>
+                            <p>
+                                From the end, the piece of meat has enough seasoning,
+                                which is crazy, and hello to the freshly sauteed mushrooms,
+                                American cheese, and salt sauce, which is close to the Big Mac sauce.
+                                Imagine all this past when it comes between beautiful soft living.
+                                Honestly, it's one of the best burger sandwiches with the taste we've been used to for a long time.
+                            </p>
+                            <span>55.5 EGP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dessert">
+                <h3 class="head-dessert">Desserts</h3>
+                <div class="dessert-container">
+                    <div class="box">
+                        <img src="image/ice-cream.jpg" alt="">
+                        <div class="text">
+                            <h3>Ice Cream</h3>
+                            <p>Three delicious scoops of ice cream served with any two of these toppings.</p>
+                            <span>5 EGP</span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="image/frozen-yogurt.jpg" alt="">
+                        <div class="text">
+                            <h3>Frozen Yogurt</h3>
+                            <p>Fresh strawberries soaked in elderflower & lemon juice.</p>
+                            <span>6.5 EGP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Restaurant Menu -->
+        <!-- Start About -->
+        <div class="about" id="about">
+            <div class="main-heading">
+                <h2>About</h2>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <div class="info">
+                        <p>
+                            A restaurant website is an online platform that provides information about a particular restaurant,
+                            including its menu, location, hours of operation, and contact details.
+                            It may also feature photos of the restaurant's interior and exterior, reviews from customers,
+                            and online ordering or reservation options. The website serves as a digital representation of the restaurant
+                            and allows potential customers to learn more about the establishment before visiting in person.
+                        </p>
+                    </div>
+                    <div class="image">
+                        <img src="image/about.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About -->
+        <!-- Start Contact -->
+        <div class="contact" id="contact">
+            <div class="main-heading">
+                <h2>Contact</h2>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <h3>Gharbia, Abu Sir</h3>
+                    <p class="phone">01211963762</p>
+                    <p class="email">amr3ahmed002@gmail.com</p>
+                </div>
+                <div class="box">
+                    <div class="info">
+                        <input class="input name" type="text" placeholder="Your Name" name="name">
+                        <input class="input mobile" type="text" placeholder="Your Phone" name="mobile">
+                    </div>
+                    <input class="input" type="email" placeholder="Your E-mail" name="email">
+                    <textarea class="input" placeholder="Tell Us About Your Needs" name="message"></textarea>
+                    <input type="submit" value="CONTAT US" class="hover-center">
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!-- Start Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="box">
+                    <h3>Crave Bites</h3>
+                    <ul class="social">
+                        <li>
+                            <a href="https://www.facebook.com/amr.elbashatly.7/" class="facebook">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/amrelbashatly/" class="instagram">
+                                <i class="fa-brands fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="text">
+                        Thank you for viewing the web site ♥
+                    </p>
+                </div>
+                <div class="box footer-menu">
+                    <img src="image/pasta.jpg" alt="">
+                    <img src="image/chicken-wings.jpeg" alt="">
+                    <img src="image/flash-steak.jpg" alt="">
+                    <img src="image/mushroom-burger.jpg" alt="">
+                    <img src="image/ice-cream.jpg" alt="">
+                    <img src="image/frozen-yogurt.jpg" alt="">
+                </div>
+            </div>
+            <p class="copyright">
+                Copyright &copy; 2023 All reserved
+            </p>
+        </div>
+        <!-- End Footer -->
+    </body>
+</html>
